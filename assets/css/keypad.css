@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.keypad-popup {
+	border:none;
+}
+.keypad-key, .keypad-special {
+	background-color: #1a631a; /*#f4f4f4;*/
+	/*border: solid 1px #cdcdcd;*/
+	width: 45px;
+	height: 40px;
+	font-weight: bold;
+	margin: 0 15px 10px 0;
+	font-size: 12px;
+	border-radius: 10px;
+	outline: none;
+	color: #fff;
+	/*background: #000*/
+}
+
+.keypad-special {
+	background:#B90FB9;/*#C30;*/ 
+	/*border:solid 1px #eee; */
+	color:#fff;
+}
+
+#keypad-login {
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 250px;
+	height: 140px;
+	font-size: 11px !important;
+	padding: 0 5px !important;
+	min-width: inherit;
+	z-index: 100;
+	/*background: #1A631A;*/
+	color: #fff;
+	/*border-radius: 30px;*/
+}
+input[type=text], input[type=password] {
+	border-radius: 0px; 
+	font-weight: bold; 
+	text-align: center; 
+	font-size: 20px; 
+	color: #666; 
+	background-color: #fff;
+}

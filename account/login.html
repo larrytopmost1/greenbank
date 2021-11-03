@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from greenbankglobal.com/account/login by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Oct 2021 15:45:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login | GreenBankGlobal.com</title>
+<meta name="description" content="Securely log in to your greenbankglobal.com account portal">
+<meta name="developer" content="Seyi Abidemi | www.absdot.com">
+
+<!-- Mobile Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->
+<link rel="shortcut icon" href="../assets/images/favicon.ico">
+<!-- Bootstrap core CSS -->
+<link href="../assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="../assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<!-- the project core CSS file -->
+<link href="../assets/css/style.css" rel="stylesheet" >
+<link href="../assets/css/skins/green.css" rel="stylesheet">
+
+<!-- Custom css --> 
+<!-- <link href="/assets/css/custom.css" rel="stylesheet"> -->
+<link href="../assets/css/keypad.css" rel="stylesheet">
+
+</head>
+
+<style type="text/css">
+	body {
+		color: #fff;
+		background-color: #1e3327;
+		/*background-color: #ADD569;*/
+		/*background-image: url(../images/favicon.ico);*/
+		/*background-repeat: no-repeat;*/
+		/*background-position: 90% 90%;*/
+	}
+</style>
+<body>
+<div class="container" style="width:100%; height: 405px; position: fixed; top: 50%; margin-top: -240px;">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="" style="width: 360px; margin: 0 auto; -background-color: #1e3327; padding: 20px 30px 10px; border-radius: 20px;">
+				<h2 class="text-center"><a href="../index.html"><img src="../assets/images/greenbank.png" class="img-responsive" alt="GreenBankGlobal"></a></h2>
+				<form id="keypad-form" class="keypad" method="post" action="https://greenbankglobal.com/account/ajax/login">
+					<p class="ajax-response"></p>
+					<div class="form-group">
+						<input type="text" name="account_no" id="account_no" class="form-control" value="" placeholder="account no" tabindex="1" maxlength="7" required>
+					</div>
+					<div class="form-group">
+						<input type="password" name="password" id="password" class="form-control" placeholder="key in password" tabindex="2" required>
+					</div>
+					<div id="keypad" class="mt-20"></div>
+					<input name="redirect" type="hidden" value="">
+					<input name="request" type="hidden" id="request">
+					<center><b><small>Forgot password? <a href="javascript:void()" id="reset" title="Enter account no to reset password">Click here</a></small></b></center>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="../assets/plugins/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.form.min.js"></script>
+<script type="text/javascript" src="../assets/js/sha512.js"></script>
+<script type="text/javascript" src="../assets/plugins/keypad/jquery.plugin.js"></script>
+<script type="text/javascript" src="../assets/plugins/keypad/jquery.keypad.js"></script>
+<script type="text/javascript" src="js/keypad.js"></script>
+
+</body>
+
+<!-- Mirrored from greenbankglobal.com/account/login by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Oct 2021 15:45:25 GMT -->
+</html>

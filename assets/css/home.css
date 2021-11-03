@@ -1,0 +1,28 @@
+
+.transparent-header .header:not(.dark) .navbar-nav > li:not(.active) > a {
+    color: #ffffff;
+}
+.transparent-header .header:not(.dark) .navbar-nav > li.open > a, 
+.transparent-header .header:not(.dark) .navbar-nav > li > a:hover, 
+.transparent-header .header:not(.dark) .navbar-nav > li > a:focus {
+   color: #21bb9d;
+}
+
+body#homepage header.header {
+  border: none;
+  background-color: transparent;
+    /*background-color: rgba(255, 255, 255, 0);*/
+}
+
+/*.tparrows:after {*/
+.tparrows.preview1:after {
+	border-radius: 50%;
+}
+
+.tp-leftarrow {
+	margin-left: 10px;
+}
+
+.tp-rightarrow {
+	margin-right: 10px;
+}
